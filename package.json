@@ -1,0 +1,30 @@
+{
+  "name": "node-service-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itsstraining/Node-Service-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itsstraining/Node-Service-Template/issues"
+  },
+  "homepage": "https://github.com/Itsstraining/Node-Service-Template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "mongoose": "^5.10.15",
+    "passport": "^0.4.1",
+    "supertest": "^6.0.1"
+  }
+}
